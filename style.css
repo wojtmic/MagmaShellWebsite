@@ -36,7 +36,7 @@ nav a:hover {
 
 /* Styles for the hero section */
 #hero {
-    background-image: url('https://cdn.discordapp.com/attachments/798836373703753749/1091348879687045242/image.png');
+    background-image: url(assets/background.png);
     background-size: cover;
     height: 400px;
     display: flex;
