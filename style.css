@@ -1,0 +1,130 @@
+/* Reset styles for HTML elements */
+html, body, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Styles for the navigation bar */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+
+nav a:hover {
+    opacity: 0.7;
+}
+
+/* Styles for the hero section */
+#hero {
+    background-image: url('https://via.placeholder.com/800x600');
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#hero h1 {
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+#hero h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+#hero .button {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+
+#hero .button:hover {
+    background-color: #f2f2f2;
+}
+
+/* Styles for the features section */
+#features {
+    background-color: #f2f2f2;
+    padding: 40px;
+}
+
+#features h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+/* Styles for the download section */
+#download {
+    background-color: #333;
+    color: #fff;
+    padding: 40px;
+}
+
+#download h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+#download p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#download .button {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+
+#download .button:hover {
+    background-color: #f2f2f2;
+}
+
+/* Styles for the footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+}
